@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: 0.3 #eae2b7;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* style of header */
+.header {
+  height: 70px;
+  width: 100%;
+  padding-bottom: 5px;
+  position: fixed;
+  background-color: none;
+}
+.tittle {
+  font-family: 'Smooch', cursive;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #003049;
+  font-size: 40px;
+  padding: 10px;
+  margin-left: 40px;
+  float: left;
+}
+.nav {
+  float: right;
+  padding: 20px;
+  padding-right: 50px;
+  font-size: 15px;
+  word-spacing: 80px;
+}
+.navbar {
+  float: right;
+  list-style-type: none;
+  columns: 3;
+  padding-top: 5px;
+}
+.tab {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: #003049;
+  font-size: 17px;
+}
+.tab:hover {
+  color: #d62828;
+}
+
+.article {
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  padding-top: 200px;
+}
+.btn {
+  columns: 3;
+  list-style-type: none;
+  width: 100%;
+  height: 300px;
+}
+.gameBtn {
+  padding: 30px;
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+  display: inline-block;
+  background-color: #fcbf49;
+}
+.gameBtn p {
+  text-decoration: none;
+  font-size: 20px;
+  color: #003049;
+  padding: 20px;
+}
+.gameBtn img {
+  height: 150px;
+  width: 150px;
+}
+
+/* btn hover */
+.gameBtn:hover {
+  background-color: #d62828;
+  box-shadow: 5px 5px 5px dimgrey;
+}
+.gameBtn:hover p {
+  color: #eae2b7;
+}
+  
+
+/* style of footer */
+footer {
+  height: 25px;
+  width: 100%;
+  position: relative;
+}
+.foot {
+  color: #003049;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
