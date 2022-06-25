@@ -57,9 +57,6 @@ p {
   color: #d62828;
 }
 
-
-
-
 /* style of  article*/
 
 .page1 {
@@ -78,22 +75,23 @@ p {
   background-position: center;
 }
 .page1 p {
-  padding: 30px;
+  padding: 50px;
   font-size: 30px;
   color: #003049;
 }
-.page1 button {
+.button {
   padding: 20px 50px;
   font-family: 'Fredoka One', cursive;
   font-size: 20px;
   color: #fcbf49;
+  text-decoration: none;
   cursor: pointer;
   background-color: #d62828;
   border: none;
   border-radius: 50px;
   box-shadow: 5px 5px 5px dimgrey;
 }
-.page1 button:hover {
+.button:hover {
   background-color: whitesmoke;
   color: #d62828;
 }
@@ -140,9 +138,6 @@ p {
 .img img {
   position: relative;
   padding-top: 20px;
-  width: 100px;
-  height: 100px;
-  border-radius: 20%;
 }
 
 /* style of page 3 */
